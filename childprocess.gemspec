@@ -11,6 +11,10 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/enkessler/childprocess"
   s.summary     = %q{A simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.}
   s.description = %q{This gem aims at being a simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.}
+  
+  s.metadata = {
+    "changelog_uri" => "https://github.com/enkessler/childprocess/blob/master/CHANGELOG.md"
+  }
 
   s.license           = 'MIT'
 
